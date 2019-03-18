@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <EditText
+            android:id="@+id/et_dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="DNI"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="User name"
+            app:layout_constraintBottom_toBottomOf="@id/et_dni"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+
+
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="@id/et_name"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="221dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:drawableLeft="@android:drawable/ic_menu_mylocation"
+            android:drawableTint="@android:color/white"
+            android:padding="7dp"
+            android:text=" Select location"
+
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="471dp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+

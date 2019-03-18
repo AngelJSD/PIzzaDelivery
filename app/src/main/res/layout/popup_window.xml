@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/customborder"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_dni"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="DNI:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_dni"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="DNI"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Name:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_pizza"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Pizza:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_pizza"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_quantity"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Quantity:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_quantity"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_lat"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Latitude:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_lat"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label_lng"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Longitude:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_show_lng"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_dni"
+        android:textSize="16sp"
+        android:text="Name"/>
+
+
+
+</LinearLayout>
